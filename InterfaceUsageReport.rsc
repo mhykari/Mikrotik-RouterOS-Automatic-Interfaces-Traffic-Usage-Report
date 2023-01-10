@@ -7,8 +7,8 @@
 # Created: 01/09/2023
 # Updated: 01/10/2023
 # Author:  Pourya Sharifi & Hossein Yeganeh
-# Website: https://github.com/pouryash
-# You can contact me by e-mail at pouryasharifi78@mail.com
+# Website: https://github.com/pouryash or https://github.com/mhykari
+# You can contact me by e-mail at pouryasharifi78@mail.com or mhykari@gmail.com
 #
 # IMPORTANT!
 # Minimum supported RouterOS version is v6.43.7
@@ -16,7 +16,6 @@
 #----------MODIFY THIS SECTION AS NEEDED----------------------------------------
 ## Notification e-mail
 ## (Make sure you have configurated Email settings in Tools -> Email)
-:local emailAddress "yourmail@example.com";
 {
 :local SMP "traffic analysis"
 :local emailAddress "h.yeganehkari@gmail.com";
