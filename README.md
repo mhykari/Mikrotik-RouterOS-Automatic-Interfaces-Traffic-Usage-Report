@@ -1,12 +1,10 @@
-# Mikrotik RouterOS automatic backup and update
+# Mikrotik RouterOS automatic backup and update + Interfaces Traffic Usage Report
 
-This script provides an ability to create Mikrotik's daily backups to email. You can also enable automatic RouterOS upgrade or leave only notifications about new firmware versions.
-
-
-> 💡 If you have any ideas about the script or you just want to share your opinion, you are welcome to [Discussions](https://github.com/beeyev/Mikrotik-RouterOS-automatic-backup-and-update/discussions), or you can open an [issue](https://github.com/beeyev/Mikrotik-RouterOS-automatic-backup-and-update/issues) if you found a bug.
+This script provides an ability to create Mikrotik's daily backups and interfaces traffic usage report to email. You can also enable automatic RouterOS upgrade or leave only notifications about new firmware versions.
 
 
 ## Features:
+- Get all interfaces usage traffic tx/rx byte and send to the email address configured in mikrotik router os as text or file + router information
 - Ability to choose script operating mode according to your needs. *(Read below)*
 - Script creates backups of the whole system and exported config.
 - You can set a preferred update channel.
@@ -33,7 +31,7 @@ This is not difficult because all parameters are well commented.
 ##### 2. Create new script
 System -> Scripts [Add]  
 
-**Important!** Script name has to be `BackupAndUpdate`   
+**Important!** Script name has to be `BackupAndUpdate`
 Put the script which you configured earlier into the source area.  
 ![](https://github.com/beeyev/Mikrotik-RouterOS-automatic-backup-and-update/raw/master/howto/script-name.png)  
 
