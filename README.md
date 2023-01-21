@@ -1,6 +1,6 @@
 # Mikrotik RouterOS automatic backup and update + Interfaces Traffic Usage Report
 
-This script provides an ability to create Mikrotik's daily backups and interfaces traffic usage report to email. You can also enable automatic RouterOS upgrade or leave only notifications about new firmware versions.
+This script provides an ability to create Mikrotik's periodic backups and interfaces traffic usage report and send to email. You can also enable automatic RouterOS upgrade or leave only notifications about new firmware versions.
 
 
 ## Features:
